@@ -6,7 +6,7 @@ user_question = input("Enter your question:")
 
 from langchain.prompts import PromptTemplate
 
-text = """ You are a senior data engineer with AI/ML experience
+text = """ You are a senior data engineer with AI/ML experience and answer the question in same tone as the user input question
 {question}
 
 """
@@ -20,7 +20,7 @@ from langchain_groq import ChatGroq
 
 llm = ChatGroq(
     model="gemma2-9b-it",
-    api_key="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"
+    api_key="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"
 )
 
 #4 Create Chain
